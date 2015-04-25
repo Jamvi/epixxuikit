@@ -1,0 +1,10 @@
+.row--inline-blocks {
+  font-size: 0;
+}
+.row--inline-blocks > [class^="col-"] {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  border: 1px solid #000;
+}
